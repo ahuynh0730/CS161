@@ -1,4 +1,4 @@
-CODE NEEDS TO BE FIXED
+
 
 Write a class called GBoard that represents the board for a game that is like tic-tac-toe, but on a larger scale.  Instead of a 3x3 board, it is played on a 15x15 board, and instead of 3 in a row, each player is trying to get 5 in row.
 
