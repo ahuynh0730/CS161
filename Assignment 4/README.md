@@ -15,6 +15,7 @@ Write a void function named smallSort that takes three int parameters by referen
 int first = 14;
 int second = -90;
 int third = 2;
+
 smallSort(first, second, third);
 cout << first << ", " << second << ", " << third << endl;
 Then the output should be:
