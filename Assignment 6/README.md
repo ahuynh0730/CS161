@@ -22,6 +22,7 @@ For example, these classes might be used as follows:
  Player p = team1.getShootingGuard();
  
  cout << p.getName() << endl;
+ 
 
 The methods of the Player class should have the following names:
 
@@ -40,6 +41,7 @@ setAssists
 getAssists
 
 hasMorePointsThan
+
 
 The methods of the Team class should have the following names:
 
