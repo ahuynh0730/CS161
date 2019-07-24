@@ -15,18 +15,29 @@ Write a class called Box that has three double fields called height, width and l
 The class declaration (interface) and the function definitions (implementation) must be in separate files - the interface or "header" file has a .hpp extension and the implementation has a .cpp extension.  As usual, all data members should be private.  For example, the Box class might be used as follows:
 
 Box box1(2.4, 7.1, 5.0);
+
 Box box2;
+
 double volume1 = box1.calcVolume();
+
 double surfaceArea1 = box1.calcSurfaceArea();
+
 double volume2 = box2.calcVolume();
+
 double surfaceArea2 = box2.calcSurfaceArea();
+
 Your functions should have the following names:
 
 setHeight
+
 setWidth
+
 setLength
+
 calcVolume
+
 calcSurfaceArea
+
 The files must be named: Box.hpp and Box.cpp
 
 About using multiple files:
