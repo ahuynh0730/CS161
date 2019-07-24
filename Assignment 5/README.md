@@ -14,17 +14,12 @@ Write a class called Box that has three double fields called height, width and l
 
 The class declaration (interface) and the function definitions (implementation) must be in separate files - the interface or "header" file has a .hpp extension and the implementation has a .cpp extension.  As usual, all data members should be private.  For example, the Box class might be used as follows:
 
-Box box1(2.4, 7.1, 5.0);
-
-Box box2;
-
-double volume1 = box1.calcVolume();
-
-double surfaceArea1 = box1.calcSurfaceArea();
-
-double volume2 = box2.calcVolume();
-
-double surfaceArea2 = box2.calcSurfaceArea();
+    Box box1(2.4, 7.1, 5.0);
+    Box box2;
+    double volume1 = box1.calcVolume();
+    double surfaceArea1 = box1.calcSurfaceArea();
+    double volume2 = box2.calcVolume();
+    double surfaceArea2 = box2.calcSurfaceArea();
 
 Your functions should have the following names:
 
@@ -54,21 +49,14 @@ Project 5.b
 
 Write a class called Taxicab that has three int fields (data members) to store its current x- and y-coordinates and the total distance it has driven so far (the actual distance driven by the Taxicab, not the Euclidean distance from it's starting point).  The class should have a constructor that takes two parameters and uses them to initialize the coordinates, and also initializes the distance traveled to zero.  The class should have a default constructor that sets all three fields to zero.  The data members of this class do not need to be set after they are initialized, so this class doesn't need any set methods - therefore the constructors will directly assign values to the data members instead of calling set methods to do it.  The class should have a get method for each data member.  It should have a method called moveX that takes an int parameter that tells how far the Taxicab should shift left or right.  It should have a method called moveY that takes an int parameter that tells how far the Taxicab should shift up or down.  For example, the Taxicab class might be used as follows:
 
-Taxicab cab1;
-
-Taxicab cab2(5, -8);
-
-cab1.moveX(3);
-
-cab1.moveY(-4);
-
-cab1.moveX(-1);
-
-cout << cab1.getDistanceTraveled() << endl;
-
-cab2.moveY(7);
-
-cout << cab2.getYCoord() << endl;
+    Taxicab cab1;
+    Taxicab cab2(5, -8);
+    cab1.moveX(3);
+    cab1.moveY(-4);
+    cab1.moveX(-1);
+    cout << cab1.getDistanceTraveled() << endl;
+    cab2.moveY(7);
+    cout << cab2.getYCoord() << endl;
 
 Your functions should have the following names:
 
