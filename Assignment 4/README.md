@@ -13,11 +13,16 @@ Project 4.b
 Write a void function named smallSort that takes three int parameters by reference and sorts their values into ascending order, so that the first parameter now has the lowest value, the second parameter the middle value, and the third parameter has the highest value.  For example if the main method has:
 
 int first = 14;
+
 int second = -90;
+
 int third = 2;
 
 smallSort(first, second, third);
+
 cout << first << ", " << second << ", " << third << endl;
+
+
 Then the output should be:
 
 -90, 2, 14
