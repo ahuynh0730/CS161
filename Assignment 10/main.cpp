@@ -17,16 +17,7 @@ using std::endl;
 
 int main() {
 	GBoard board;
-	//board.makeMove(1, 5, 'x');
-	//board.makeMove(1, 4, 'x');
-	//board.makeMove(1, 3, 'x');
-	//board.makeMove(1, 2, 'x');
-	//board.makeMove(1, 1, 'x');
-	//board.makeMove(1, 0, 'x');
-	//board.makeMove(1, 3, 'x');
-	//board.makeMove(1, 4, 'x');
-	//board.makeMove(1, 6, 'x');
-	/*board.displayBoard();
+	board.displayBoard();
 	while (board.getGameState() == UNFINISHED)
 	{
 		int userRow, userColumn;
@@ -43,48 +34,8 @@ int main() {
 			board.displayBoard();
 		}
 	}
-	/*for (int i = 0; i < 15; i++)
-	{
-		if (i % 2 == 0)
-		{
-			for (int j = 0; j < 15; j++)
-			{
-				if (j % 3 == 0)
-					board.makeMove(i, j, 'o');
-				else
-					board.makeMove(i, j, 'x');
-			}
-		}
-		else
-		{
-			for (int j = 0; j < 15; j++)
-			{
-				if (j % 3 != 0)
-					board.makeMove(i, j, 'o');
-				else
-					board.makeMove(i, j, 'x');
-			}
-		}
-
-	}
-	cout << endl;*/
-	board.makeMove(7, 5, 'o');
-	board.makeMove(7, 6, 'o');
-	board.makeMove(7, 8, 'o');
-	board.makeMove(7, 9, 'o');
-	board.makeMove(7, 10, 'o');
-
-	board.makeMove(3, 7, 'x');
-	board.makeMove(4, 7, 'x');
-	board.makeMove(5, 7, 'x');
-	board.makeMove(6, 7, 'x');
-
-	cout << board.getGameState() << endl;
-	board.makeMove(7, 7, 'o');
-	cout << board.getGameState() << endl;
-	board.displayBoard();
+	cout << endl;
 
 
-	system("pause");
 	return 0;
 }

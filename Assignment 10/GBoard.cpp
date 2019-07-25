@@ -38,7 +38,6 @@ void GBoard::displayBoard()
 gameStatus GBoard::getGameState()
 {
 	return gameState;
-	std::cout << "return game state" << endl;
 }
 
 //method that updates game board
@@ -93,12 +92,11 @@ void GBoard::checkGame(int row, int column, char player)
 			break;
 	}
 
-	std::cout << playerCount << std::endl;
-
-	//updates gameState if playerCount hits 5
-	if (playerCount == 5)
+	//updates gameState if playerCount hits 5 or more
+	if (playerCount >= 5)
 	{
 		updateGame(player);
+		return;
 	}
 
 	//setting playerCount back to 1 to start checking vertically
@@ -126,8 +124,8 @@ void GBoard::checkGame(int row, int column, char player)
 			break;
 	}
 
-	//updates gameState if playerCount hits 5
-	if (playerCount == 5)
+	//updates gameState if playerCount hits 5 or more
+	if (playerCount >= 5)
 	{
 		updateGame(player);
 	}
@@ -158,8 +156,8 @@ void GBoard::checkGame(int row, int column, char player)
 			break;
 	}
 	
-	//change gameState if playerCount hits 5
-	if (playerCount == 5)
+	//change gameState if playerCount hits 5 or more
+	if (playerCount >= 5)
 	{
 		updateGame(player);
 	}
@@ -191,8 +189,8 @@ void GBoard::checkGame(int row, int column, char player)
 			break;
 	}
 
-	//change gameState if playerCount hits 5
-	if (playerCount == 5)
+	//change gameState if playerCount hits 5 or more
+	if (playerCount >= 5)
 	{
 		updateGame(player);
 	}
@@ -210,19 +208,24 @@ void GBoard::checkGame(int row, int column, char player)
 //updates gameState based on player character sent
 void GBoard::updateGame(char winner)
 {
+
+	
 	if (winner == 'x')
 	{
 		gameState = X_WON;
+		std::cout << "Player " << winner << " wins!" << std::endl;
 	}
 
 	else if (winner == 'o')
 	{
 		gameState = O_WON;
+		std::cout << "Player " << winner << " wins!" << std::endl;
 	}
 
 	else if (winner == 'T')
 	{
 		gameState = DRAW;
+		std::cout << "Game ended in a draw!" << std::endl;
 	}
 }
 
