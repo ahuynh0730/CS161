@@ -17,46 +17,29 @@ For example, these classes might be used as follows:
 
 The methods of the Player class should have the following names:
 
-getName
-
-setPoints
-
-getPoints
-
-setRebounds
-
-getRebounds
-
-setAssists
-
-getAssists
-
-hasMorePointsThan
+    getName
+    setPoints
+    getPoints
+    setRebounds
+    getRebounds
+    setAssists
+    getAssists
+    hasMorePointsThan
 
 
 The methods of the Team class should have the following names:
 
-setPointGuard
-
-getPointGuard
-
-setShootingGuard
-
-getShootingGuard
-
-setSmallForward
-
-getSmallForward
-
-setPowerForward
-
-getPowerForward
-
-setCenter
-
-getCenter
-
-totalPoints
+    setPointGuard
+    getPointGuard
+    setShootingGuard
+    getShootingGuard
+    setSmallForward
+    getSmallForward
+    setPowerForward
+    getPowerForward
+    setCenter
+    getCenter
+    totalPoints
 
 The files must be named: Player.hpp, Player.cpp, Team.hpp and Team.cpp
 
