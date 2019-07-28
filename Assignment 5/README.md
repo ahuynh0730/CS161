@@ -23,11 +23,11 @@ The class declaration (interface) and the function definitions (implementation) 
 
 Your functions should have the following names:
 
-  setHeight
-  setWidth
-  setLength
-  calcVolume
-  calcSurfaceArea
+    setHeight
+    setWidth
+    setLength
+    calcVolume
+    calcSurfaceArea
 
 The files must be named: Box.hpp and Box.cpp
 
