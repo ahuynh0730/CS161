@@ -16,21 +16,21 @@ LineSegment should also contain a method called length that returns the length o
 
 The functions for the Point class should have the following names:
 
-setXCoord, getXCoord
+        setXCoord, getXCoord
 
-setYCoord, getYCoord
+        setYCoord, getYCoord
 
-distanceTo
+        distanceTo
 
 The functions for the LineSegment class should have the following names:
 
-setEnd1, getEnd1
+        setEnd1, getEnd1
 
-setEnd2, getEnd2
+        setEnd2, getEnd2
 
-length
+        length
 
-slope
+        slope
 
 The files must be named: Point.hpp, Point.cpp, LineSegment.hpp and LineSegment.cpp
 
