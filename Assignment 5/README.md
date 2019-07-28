@@ -56,11 +56,11 @@ Write a class called Taxicab that has three int fields (data members) to store i
 
 Your functions should have the following names:
 
-  getXCoord
-  getYCoord
-  getDistanceTraveled
-  moveX
-  moveY
+    getXCoord
+    getYCoord
+    getDistanceTraveled
+    moveX
+    moveY
 
 The files must be named: Taxicab.hpp and Taxicab.cpp
 
